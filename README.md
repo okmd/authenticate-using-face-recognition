@@ -1,1 +1,1 @@
-# aufr
+# Aufr - Authenticate using face recognition
