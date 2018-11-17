@@ -19,24 +19,29 @@
  - Download [Anaconda](https://www.anaconda.com/).
 
 ### 2. Create Environment
- - ```$ conda create -n opencv python=3.*```
- - ```$ conda activate opencv```
+ - ```$ conda create -n cv python=3.*```
+ - ```$ conda activate cv```
 
 ### 3. Package Installation
- - ```$ conda install -c dsdale24 pyqt5```
- - ```$ conda install -c anaconda pyqt```
- - ```$ conda install -c conda-forge/label/broken opencv```
+ - ```$ conda install pyqt=5.*```
+ - ```$ conda install opencv=*.*```
  - ```$ conda install -c michael_wild opencv-contrib```
- - ```$ conda install -c anaconda numpy```
 
 ### 4. Clone Repository
- - Clone ```$ git clone https://github.com/indian-coder/aufr.git```
+ - Clone ```$ git clone https://github.com/indian-coder/authenticate-using-face-recognition.git```
  - Cd into aufr ```$ cd aufr```
- - Insatall dependencies ```$ pip3 install -r requirements.txt``` ##remove
 
 ### 5. Execute Application
  - Execute  ```$ python main.py```
 
 	Note:Generate atleat two datasets to work properly.
   
-### remaining updates coming soon....
+  1. Enter name,and unique key.
+  2. Check algorithm radio button which you want to train.
+  3. Click recognize button.
+  4. Click save button to save current displayed image.
+  5. Click record button to save video.
+
+## Resources
+  - [OpenCV face Recognition](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html)
+  - [PyQt5 Documentation](http://pyqt.sourceforge.net/Docs/PyQt5/)
